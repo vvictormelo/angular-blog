@@ -1,0 +1,11 @@
+@media screen and (max-width:600px) {
+  .menu-title__container > h1 {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width:1900px) {
+  .menu-title__container > h1 {
+    font-size: 90px;
+  }
+}
