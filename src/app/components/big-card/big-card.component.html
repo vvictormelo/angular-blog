@@ -5,11 +5,11 @@
     srcset="">
   </div>
   <div class="big-card__title">
-    <h1><a href="#">{{ cardTittle }}</a></h1>
+    <h1><a [routerLink]="['content', Id]">{{ cardTittle }}</a></h1>
   </div>
   <div class="big-card__description">
     <p>
-      <a href="#">
+      <a [routerLink]="['content', Id]">
         {{ cardDescription }}
       </a>
     </p>
